@@ -11,6 +11,7 @@ pip install -r requirements.txt
 python Hangman_Engine.py
 
 # Description
+Several trategies listed below are used:
 - choose the most frequent character in all potentially matched words each time
 - first guess based on the word-length based character frequency table
 - adjust the weight based on universe word frequency table:
